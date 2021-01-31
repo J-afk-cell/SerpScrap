@@ -10,7 +10,7 @@ SELENIUM_STANDALONE_VERSION=3.14.1
 SELENIUM_SUBDIR=$(echo "$SELENIUM_STANDALONE_VERSION" | cut -d"." -f-2)
 
 # Remove existing downloads and binaries so we can start from scratch.
-sudo apt-get remove google-chrome-stable
+sudo apt-get install google-chrome-stable
 rm ~/chromedriver_linux64.zip
 # sudo rm /usr/local/bin/chromedriver
 
